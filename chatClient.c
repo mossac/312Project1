@@ -13,7 +13,7 @@
 
 #define BUF_SIZE 256
 #define CLADDR_LEN 100
-char IP[] = "172.17.14.247";
+char IP[] = "137.112.104.138";
 bool quit = false;
 char name[256];
 char othername[256];
