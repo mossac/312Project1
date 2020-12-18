@@ -30,6 +30,7 @@ int main(int argc, char *argv[])
     printf("Provide User Name: ");
     bzero(name, 256);
     fgets(name, 255, stdin);
+    name[strlen(name) - 1] = '\0';
 
     if (argc < 2)
     {
